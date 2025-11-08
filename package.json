@@ -1,5 +1,5 @@
 {
-  "name": "@atlz253/npm-workspaces-vite-lit-react-typescript",
+  "name": "@atlz253/npm-workspaces-vite-lit-react-storybook",
   "version": "0.0.0",
   "scripts": {},
   "keywords": [
@@ -7,7 +7,8 @@
     "vite",
     "lit",
     "react",
-    "typescript"
+    "typescript",
+    "storybook"
   ],
   "workspaces": [
     "packages/*"
