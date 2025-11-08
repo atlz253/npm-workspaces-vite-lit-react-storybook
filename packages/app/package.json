@@ -1,0 +1,15 @@
+{
+  "name": "@atlz253/app",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@atlz253/react": "^0.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}

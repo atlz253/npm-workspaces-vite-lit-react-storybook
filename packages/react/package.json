@@ -1,0 +1,35 @@
+{
+  "name": "@atlz253/react",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "storybook dev -p 6006",
+    "build": "vite build",
+    "storybook.build": "storybook build"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.1.2",
+    "@storybook/addon-a11y": "^10.0.5",
+    "@storybook/addon-docs": "^10.0.5",
+    "@storybook/addon-vitest": "^10.0.5",
+    "@storybook/react-vite": "^10.0.5",
+    "@vitest/browser-playwright": "^4.0.7",
+    "@vitest/coverage-v8": "^4.0.7",
+    "playwright": "^1.56.1",
+    "storybook": "^10.0.5",
+    "vitest": "^4.0.7"
+  },
+  "dependencies": {
+    "@atlz253/lit": "^0.0.0",
+    "@lit/react": "^1.0.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "exports": {
+    "./Loader": {
+      "types": "./src/Loader/index.tsx",
+      "vite": "./src/Loader/index.tsx",
+      "default": "./dist/Loader/index.js"
+    }
+  }
+}

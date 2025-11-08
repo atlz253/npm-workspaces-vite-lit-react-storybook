@@ -1,0 +1,25 @@
+{
+  "name": "@atlz253/npm-workspaces-vite-lit-react-typescript",
+  "version": "0.0.0",
+  "scripts": {},
+  "keywords": [
+    "npm-workspaces",
+    "vite",
+    "lit",
+    "react",
+    "typescript"
+  ],
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "vite": "^7.2.1"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3",
+    "vite-plugin-externalize-deps": "^0.10.0"
+  }
+}

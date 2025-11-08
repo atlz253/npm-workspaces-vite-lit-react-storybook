@@ -1,0 +1,18 @@
+{
+  "name": "@atlz253/lit",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "lit": "^3.3.1"
+  },
+  "exports": {
+    "./lit-loader": {
+      "types": "./src/lit-loader/index.ts",
+      "vite": "./src/lit-loader/index.ts",
+      "default": "./dist/lit-loader/index.js"
+    }
+  }
+}
