@@ -3,4 +3,4 @@ import { Loader } from "@atlz253/react/Loader";
 
 const root = createRoot(document.querySelector("#root") as HTMLElement);
 
-root.render(<Loader />);
+root.render(<Loader caption={"Hello, world!"} />);
