@@ -15,6 +15,11 @@
       "types": "./src/lit-loader/index.ts",
       "vite": "./src/lit-loader/index.ts",
       "default": "./dist/lit-loader/index.js"
+    },
+    "./lit-counter": {
+      "types": "./src/lit-counter/index.ts",
+      "vite": "./src/lit-counter/index.ts",
+      "default": "./dist/lit-counter/index.js"
     }
   },
   "devDependencies": {

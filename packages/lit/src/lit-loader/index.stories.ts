@@ -1,5 +1,5 @@
 import ".";
-import { html, render } from "lit";
+import { html } from "lit";
 import { LoaderElement } from ".";
 import { Meta, StoryObj } from "@storybook/web-components-vite";
 import { ifDefined } from "lit/directives/if-defined.js";

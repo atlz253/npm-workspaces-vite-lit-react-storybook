@@ -12,7 +12,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: {
-        "lit-loader/index": "src/lit-loader/index.ts"
+        "lit-loader/index": "src/lit-loader/index.ts",
+        "lit-counter/index": "src/lit-counter/index.ts"
       },
       formats: ["es"]
     }

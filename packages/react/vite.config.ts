@@ -6,6 +6,7 @@ export default defineConfig({
     lib: {
       entry: {
         "Loader/index": "src/Loader/index.tsx",
+        "Counter/index": "src/Counter/index.tsx",
       },
       formats: ["es"],
     },

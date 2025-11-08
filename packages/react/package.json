@@ -30,6 +30,11 @@
       "types": "./src/Loader/index.tsx",
       "vite": "./src/Loader/index.tsx",
       "default": "./dist/Loader/index.js"
+    },
+    "./Counter": {
+      "types": "./src/Counter/index.tsx",
+      "vite": "./src/Counter/index.tsx",
+      "default": "./dist/Counter/index.js"
     }
   }
 }
