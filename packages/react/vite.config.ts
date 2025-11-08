@@ -7,6 +7,7 @@ export default defineConfig({
       entry: {
         "Loader/index": "src/Loader/index.tsx",
         "Counter/index": "src/Counter/index.tsx",
+        "Button/index": "src/Button/index.tsx",
       },
       formats: ["es"],
     },

@@ -1,18 +1,20 @@
 import { Meta, StoryObj } from "@storybook/react-vite";
-import { Counter } from ".";
+import { Button } from ".";
 
 const meta = {
-  title: "Counter",
-  component: Counter,
+  title: "Button",
+  component: Button,
   parameters: {
     layout: "centered",
   },
   tags: ["autodocs"],
-} satisfies Meta<typeof Counter>;
+} satisfies Meta<typeof Button>;
 export default meta;
 
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  args: {},
+  args: {
+    children: "Example",
+  },
 };

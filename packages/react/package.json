@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@atlz253/lit": "^0.0.0",
+    "@atlz253/styles": "^0.0.0",
     "@lit/react": "^1.0.8",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
@@ -35,6 +36,11 @@
       "types": "./src/Counter/index.tsx",
       "vite": "./src/Counter/index.tsx",
       "default": "./dist/Counter/index.js"
+    },
+    "./Button": {
+      "types": "./src/Button/index.tsx",
+      "vite": "./src/Button/index.tsx",
+      "default": "./dist/Button/index.js"
     }
   }
 }

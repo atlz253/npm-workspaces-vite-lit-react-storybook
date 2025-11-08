@@ -1,0 +1,8 @@
+{
+  "name": "@atlz253/styles",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    "./button.module.css": "./src/button.module.css"
+  }
+}

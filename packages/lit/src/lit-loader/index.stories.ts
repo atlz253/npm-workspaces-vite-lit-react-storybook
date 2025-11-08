@@ -22,4 +22,8 @@ export default meta;
 
 type Story = StoryObj<LoaderElement>;
 
-export const Default: Story = {};
+export const Default: Story = {
+  args: {
+    caption: "Example",
+  },
+};

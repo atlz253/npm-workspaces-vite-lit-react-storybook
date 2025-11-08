@@ -8,6 +8,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@atlz253/styles": "^0.0.0",
     "lit": "^3.3.1"
   },
   "exports": {
@@ -28,10 +29,10 @@
     "@storybook/addon-docs": "^10.0.6",
     "@storybook/addon-vitest": "^10.0.6",
     "@storybook/web-components-vite": "^10.0.6",
-    "storybook": "^10.0.6",
-    "vitest": "^4.0.8",
-    "playwright": "^1.56.1",
     "@vitest/browser-playwright": "^4.0.8",
-    "@vitest/coverage-v8": "^4.0.8"
+    "@vitest/coverage-v8": "^4.0.8",
+    "playwright": "^1.56.1",
+    "storybook": "^10.0.6",
+    "vitest": "^4.0.8"
   }
 }
